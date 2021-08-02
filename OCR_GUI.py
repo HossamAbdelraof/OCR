@@ -148,7 +148,8 @@ screen.pack()
 
 ## set entry fields
 ## init message 
-link_text = StringVar().set("past link")
+link_text = StringVar()
+link_text.set("past link")
 
 ## set title label
 link_label = Label(root, textvariable = link_text )
@@ -161,7 +162,8 @@ image_link.place(x = 80, y = 510)
 
 
 ## init message 
-brows_text = StringVar().set("image path")
+brows_text = StringVar()
+brows_text.set("image path")
 
 ## set title label
 brows_label = Label(root, textvariable = brows_text )
